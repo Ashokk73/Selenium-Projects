@@ -10,7 +10,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class crossbrowser {
-	private  WebDriver driver=null;
+	private  WebDriver driver;
 	
 	 @BeforeTest
 	 @Parameters ({"BROWSER"})
