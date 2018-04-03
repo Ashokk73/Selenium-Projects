@@ -32,11 +32,11 @@ public class Screenshot_Loginpage {
 	static int totalNoOfRows;	
 	public WebDriver driver;
 	public static WritableSheet writablesh;
-    public static WritableWorkbook workbookcopy;
-    static String Testcase;
+    	public static WritableWorkbook workbookcopy;
+    	static String Testcase;
     
 	
-		@BeforeTest
+	   @BeforeTest
 	    public void launch() {
 		System.setProperty("webdriver.firefox.marionette", "D:\\Ashok-Data\\Ashok\\Data\\Testing\\Java Tutorial\\G\\Firefox\\geckodriver-v0.18.0-win64.exe");
 		System.setProperty("webdriver.firefox.bin", "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe");
