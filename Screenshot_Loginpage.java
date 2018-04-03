@@ -27,8 +27,6 @@ import jxl.write.biff.RowsExceededException;
 
 public class Screenshot_Loginpage {
 	
-
-	
 	static int totalNoOfRows;	
 	public WebDriver driver;
 	public static WritableSheet writablesh;
